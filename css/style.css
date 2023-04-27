@@ -1,0 +1,711 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section {
+  display: block;
+}
+
+main {
+  height: 860px;
+}
+#header1 {
+  width: 100%;
+  height: 123px;
+  background-color: #F2E9E9;
+}
+
+
+.container.zoomed {
+  transform: scale(1.5);
+}
+
+#header1 ul li:nth-child(2) a:hover,
+#header1 ul li:nth-child(3) a:hover {
+  color: red;
+}
+#header1 ul li:nth-child(2) ,
+#header1 ul li:nth-child(3) {
+  margin-top: 52px;
+}
+
+
+.RedQ {
+  margin-top: 27px;
+  margin-left: 40%;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  margin-right: -20px;
+  background-color: #F72828;
+
+}
+
+.RedQ2 {
+  margin-top: 27px;
+  margin-left: 50%;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  background-color: #F72828;
+  margin-right: -20px;
+
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  height: 33px;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-right: 18px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  height: 41px;
+  background: #000000;
+}
+
+h1 {
+  margin-top: 267px;
+  margin-left: 244px;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 96px;
+  color: #000000;
+
+}
+
+span {
+  margin-top: 20px;
+  margin-left: 244px;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+#BigBox {
+  display: flex;
+  position: relative;
+  margin-left: 688px;
+  margin-top: 91px;
+}
+
+#BigBox>#Req1 {
+  position: absolute;
+  height: 23px;
+  width: 75px;
+  top: 44px;
+  background-color: #EBEF18;
+}
+
+#BigBox>#Req2 {
+  position: absolute;
+  height: 46px;
+  width: 136px;
+  top: 75px;
+  background-color: #EBEF18;
+}
+
+#BigBox>#Req3 {
+  position: absolute;
+  height: 404px;
+  width: 134px;
+  top: 132px;
+  background-color: #EBEF18;
+}
+
+#BigBox>#Req4 {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: 547px;
+  background-color: #EBEF18;
+}
+
+#BigBox>#Req5 {
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  top: 582px;
+  background-color: #EBEF18;
+}
+
+#BigBox>#Req6 {
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  top: 582px;
+  left: 32px;
+  background-color: #EBEF18;
+}
+
+#BigBox>#Req7 {
+  position: absolute;
+  height: 352px;
+  width: 246px;
+  left: 149px;
+  top: 44px;
+  background-color: #EBEF18;
+
+}
+
+#BigBox>#Req8 {
+  position: absolute;
+  height: 212px;
+  width: 123px;
+  left: 149px;
+  top: 412px;
+  border-radius: 0px;
+  background-color: #EBEF18;
+
+}
+
+#BigBox>#Req9 {
+  position: absolute;
+  height: 105px;
+  width: 55px;
+  left: 286px;
+  top: 412px;
+  border-radius: 0px;
+  background-color: #EBEF18;
+
+}
+
+#BigBox>#Req10 {
+  position: absolute;
+  height: 58px;
+  width: 110px;
+  left: 286px;
+  top: 524px;
+  border-radius: 0px;
+  background-color: #EBEF18;
+
+
+}
+
+#BigBox>#Req11 {
+  position: absolute;
+  height: 55px;
+  width: 28px;
+  left: 409px;
+  border-radius: 0px;
+  background-color: #EBEF18;
+
+}
+
+#BigBox>#Req12 {
+  position: absolute;
+  height: 55px;
+  width: 28px;
+  left: 409px;
+  top: 66px;
+  border-radius: 0px;
+  background-color: #EBEF18;
+
+}
+
+#BigBox>#Req13 {
+  position: absolute;
+  height: 55px;
+  width: 28px;
+  left: 409px;
+  top: 132px;
+  border-radius: 0px;
+  background-color: #EBEF18;
+
+}
+
+#BigBox>#Req14 {
+  position: absolute;
+  height: 198px;
+  width: 28px;
+  left: 409px;
+  top: 198px;
+  border-radius: 0px;
+  background-color: #EBEF18;
+
+}
+
+#BigBox>#Req15 {
+  position: absolute;
+  height: 105px;
+  width: 55px;
+  left: 382px;
+  top: 412px;
+  border-radius: 0px;
+  background-color: #EBEF18;
+
+}
+@media(max-width:1000px)
+{
+  #header1 {
+    width: 120%;
+   
+  }
+  #BigBox {
+    display: flex;
+    position: relative;
+    margin-left: 650px;
+    margin-top: 91px;
+  }
+  footer {
+    width: 120%;
+    height: 41px;
+    background: #000000;
+  }
+  .RedQ {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: #F72828;
+  
+  }
+
+
+
+
+
+}
+
+#header2 {
+  width: 100%;
+  height: 123px;
+  background-color: #F2E9E9;
+}
+#header2 ul li:nth-child(1) ,
+#header2 ul li:nth-child(3) {
+  margin-top: 52px;
+}
+#header2 ul li:nth-child(1) a:hover,
+#header2 ul li:nth-child(3) a:hover {
+  color: red;
+}
+
+#BigBox2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: 151px;
+  margin-top: 119px;
+}
+
+#BigBox2>#Box1 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+  background-color: #C4C4C4;
+}
+
+#BigBox2>#Box2 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 0px;
+  top: 369px;
+  border-radius: 0px;
+  background-color: #C4C4C4;
+}
+
+#BigBox2>#Box3 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 0px;
+  top: 738px;
+  border-radius: 0px;
+  background-color: #C4C4C4;
+}
+
+#BigBox2>#Box4 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 0px;
+  top: 1107px;
+  border-radius: 0px;
+  background-color: #C4C4C4;
+}
+
+#BigBox2>#Box5 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 0px;
+  top: 1476px;
+  border-radius: 0px;
+
+  background-color: #C4C4C4;
+}
+
+#BigBox3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: 155px;
+
+}
+
+#BigBox3>#Box6 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 512px;
+  top: 168px;
+  background-color: #C4C4C4;
+}
+
+#BigBox3>#Box7 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 512px;
+  top: 537px;
+  border-radius: 0px;
+
+  background-color: #C4C4C4;
+}
+
+#BigBox3>#Box8 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 512px;
+  top: 906px;
+  border-radius: 0px;
+
+  background-color: #C4C4C4;
+}
+
+#BigBox3>#Box9 {
+  position: absolute;
+  height: 299px;
+  width: 457px;
+  left: 512px;
+  top: 1275px;
+  border-radius: 0px;
+
+  background-color: #C4C4C4;
+}
+
+#BigBox3>#Box10 {
+  position: absolute;
+  height: 175px;
+  width: 457px;
+  left: 512px;
+  top: 1644px;
+  border-radius: 0px;
+
+  background-color: #C4C4C4;
+}
+
+
+#main2 {
+  height: 1819px;
+}
+
+#yellowbox {
+  position: absolute;
+  width: 169px;
+  height: 1938px;
+  right: 0;
+  top: 123px;
+  background-color: #EBEF18;
+
+}
+
+#yellowbox #ybox1 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 0;
+  top: 119px;
+  background-color: #000000;
+}
+
+#yellowbox #ybox2 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  right: 0;
+  top: 370px;
+  border-radius: 0px;
+  background-color: #FFFFFF;
+}
+
+#yellowbox #ybox3 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 0px;
+  top: 659px;
+  border-radius: 0px;
+  background-color: #000000;
+}
+
+#yellowbox ul {
+
+  position: absolute;
+  height: 641px;
+  width: 81px;
+  left: 44px;
+  top: 1240px;
+  list-style-type: none;
+
+}
+
+#yellowbox li {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 128px;
+  text-align: center;
+  padding-top: 96px;
+
+}
+
+#yellowbox li:nth-child(3) {
+  margin-left: 20px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer2 {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+}
+
+@media(max-width:1000px)
+{
+  #header2 {
+    width: 120%;
+    height: 123px;
+    background-color: #F2E9E9;
+  }
+  #yellowbox {
+    position: absolute;
+    width: 169px;
+    height: 1938px;
+    top: 123px;
+    right:-200px;
+
+    background-color: #EBEF18;
+    
+  }
+  #BigBox2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 119px;
+  }
+  #BigBox3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 30px;
+  
+  }
+  .RedQ2 {
+    margin-top: 34px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: #F72828;
+  
+  }
+  #header2 ul li:nth-child(1) ,
+#header2 ul li:nth-child(3) {
+  margin-top: 60px;
+}
+
+}
+
+
+
+#container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main3 {
+  flex: 1;
+}
+
+#footer3 {
+  height: 41px;
+  width: 100%;
+  margin-top: 1450px;
+}
+
+
+.grayBox3 {
+  position: absolute;
+  height: 995px;
+  width: 372px;
+  left: 0px;
+  top: 123px;
+  border-radius: 0px;
+  background-color: #E5E5E5;
+
+}
+
+.grayBox3 ul {
+  position: absolute;
+  left: 38px;
+  top: 123px;
+  display: flex;
+  flex-direction: row;
+}
+.grayBox3 ul li:nth-child(1):hover a,
+.grayBox3 ul li:nth-child(2):hover a {
+  color: red;
+}
+
+.Layout3Yellowbox {
+  position: absolute;
+  height: 463px;
+  width: 100%;
+  left: 0px;
+  top: 1118px;
+  border-radius: 0px;
+  background: #EBEF18;
+
+
+
+}
+
+.BlueBox {
+  position: absolute;
+  height: 995px;
+  width: 104px;
+  left: calc(100% - 104px);
+  top: 123px;
+  border-radius: 0px;
+  background-color: #1847EF4D;
+}
+
+#BlackBox {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  right: 24px;
+  top: 21px;
+  border-radius: 0px;
+  background-color: #000000;
+}
+
+
+.RedQ3 {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  top: -40px;
+  border-radius: 50px;
+  left: 18px;
+
+  background-color: #F72828;
+
+}
+#header3 {
+  width: 100%;
+  height: 123px;
+  background-color: #F2E9E9;
+}
+@media(max-width:1000px)
+{
+  #container {
+    width: 100%;
+    height: 1292px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #header3 {
+    width: 100%;
+    height: 123px;
+    background-color: #F2E9E9;
+  }
+  .grayBox3{
+    position: absolute;
+    height: 105px;
+    width: 100%;
+    left: 0px;
+    top: 123px;
+    background-color: #E5E5E5;
+  }
+  .grayBox3 ul {
+    position: absolute;
+    top: 45px;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .RedQ3 {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    border-radius: 50px;
+    left: 20px;
+    background-color: #F72828;
+    transform: translateX(-20%);
+  }
+  #footer3 {
+    height: 41px;
+    width: 100%;
+    margin-top: 1450px;
+    bottom: 0;
+  }
+  
+  .BlueBox {
+   display: none;
+  }
+}
